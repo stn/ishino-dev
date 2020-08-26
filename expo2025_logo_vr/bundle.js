@@ -370,7 +370,7 @@ function init() {
 
         object.position.x = ball.x;
         object.position.y = ball.y;
-        object.position.z = ball.z;
+        object.position.z = ball.z - 1;
         object.scale.x = ball.sx;
         object.scale.y = ball.sy;
         object.scale.z = ball.sz;
